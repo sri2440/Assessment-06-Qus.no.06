@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rotating Element Animation</title>
+  <style>
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .rotating-element {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      animation: rotate 3s linear infinite;
+    }
+  </style>
+</head>
+<body>
+  <h1>Rotating Element Animation Example</h1>
+  <div class="rotating-element"></div>
+</body>
+</html>
